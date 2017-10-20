@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Maksym Savin Movie  List</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	
+    <link rel="stylesheet" type="text/css" media="screen" href="movieList.css">
+    <script type="text/javascript" charset="utf-8"></script>
+    <script src="movieListScript.js" type="text/javascript"></script>
+</head>
+
+  <body>
+		<div class="background-image"></div>
+
+
+		<!-- Trailer Video Modal -->
+		<div class="modal" id="trailer">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+						<img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+                    </a>
+					<div class="scale-media" id="trailer-video-container">
+					</div>
+				</div>
+			</div>
+        </div>
+
+    <!-- Main Page Content -->
+    <div class="container">
+	
+		<a name="top"></a> 
+		
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header" >
+					<a class="navbar-brand" id="home_button"  href="index.html">
+						<img  src="home icon.png"/>
+					</a>
+					<a class="navbar-brand" href="#">Maksym Savin Movie List</a>
+				</div>
+			</div>
+        </div>
+    </div>
+	
+    <!-- side panel (sliding) to choose different movie genres-->
+	<div class = "genreMenu">
+        <ul class="topnav" >
+			<li><a href="#" class="closebtn" ></a></li>
+			<li><a href="#" id="fullListSel"><strong>Full list</strong></a></li>
+			<li><a href="#" id="action"><h4>Action </h4></a></li>
+			<li><a href="#" id="adventure"><h4>Adventure</h4></a></li>
+			<li><a href="#" id="animation"><h4>Animation</h4></a></li>
+			<li><a href="#" id="biography"><h4>Biography</h4></a></li>
+			<li><a href="#" id="comedy"><h4>Comedy</h4></a></li>
+			<li><a href="#" id="crime"><h4>Crime</h4></a></li>
+			<li><a href="#" id="fantasy"><h4>Fantasy</h4></a></li>
+			<li><a href="#" id="drama"><h4>Drama</h4></a></li>
+			<li><a href="#" id="sci-fi"><h4>Sci-Fi</h4></h4></a></li>
+			<li><a href="#" id="sport"><h4>Sport</h4></a></li>
+			<li><a href="#" id="war"><h4>War</h4></a></li>
+	    </ul>
+	</div>
+	
+	
+	<!--button to open side menu-->
+	<a href="" class="toggle" >
+		<img src="glyphicons-114-justify.png" alt="glyphicon menu">
+	</a>
+	
+    <div class="container" id="main">
+      
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= action
+    data-trailer-youtube-id="bKeW-MGu-qQ" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="https://upload.wikimedia.org/wikipedia/en/d/d9/Lethal_weapon1.jpg" width="220" height="342">
+    <h2>Lethal Weapon</h2>
+    <h4>1987</h4>
+    <!--<h4>action</h4>-->
+	<h5 class = "movieStoryline">A veteran policeman, Murtaugh, is partnered witha younger, suicidal officer, Riggs</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= drama
+    data-trailer-youtube-id="uPIEn0M8su0" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/1994/posters/forrest_gump.jpg" width="220" height="342">
+    <h2>Forrest Gump</h2>
+    <h4>1994</h4>
+    <!--<h4>drama</h4>-->
+	<h5 class = "movieStoryline">While not intelligent, Forrest Gump hasaccidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= drama
+    data-trailer-youtube-id="Ki4haFrqSrw" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/1999/posters/green_mile_ver3_xlg.jpg" width="220" height="342">
+    <h2>The Green Mile</h2>
+    <h4>1999</h4>
+    <!--<h4>drama</h4>-->
+	<h5 class = "movieStoryline">The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="G3cEKSODO1M" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2000/posters/whole_nine_yards.jpg" width="220" height="342">
+    <h2>The Whole Nine Yards</h2>
+    <h4>2000</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">A struggling dentist's life is turned upside downwhen a famous gangster moves in</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= drama
+    data-trailer-youtube-id="RZvljNvnd18" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2000/posters/perfect_storm.jpg" width="220" height="342">
+    <h2>The Perfect Storm</h2>
+    <h4>2000</h4>
+    <!--<h4>drama</h4>-->
+	<h5 class = "movieStoryline">An unusually intense storm pattern catchessome commercial fishermen unaware and putsthem in mortal danger.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= action
+    data-trailer-youtube-id="_comGBmnYew" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="https://images-na.ssl-images-amazon.com/images/I/51TiXRZCo7L.jpg" width="220" height="342">
+    <h2>The Patriot</h2>
+    <h4>2000</h4>
+    <!--<h4>action</h4>-->
+	<h5 class = "movieStoryline">Peaceful farmer Benjamin Martin is driven to lead the Colonial Militia during the American Revolution whena sadistic British officer murders his son.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= war
+    data-trailer-youtube-id="If-UCjzRFfk" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2002/posters/we_were_soldiers.jpg" width="220" height="342">
+    <h2>We Were Soldiers</h2>
+    <h4>2002</h4>
+    <!--<h4>war</h4>-->
+	<h5 class = "movieStoryline">The story of the first major battle of the American phase of the Vietnam War and the soldiers on both sides that fought it.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= drama
+    data-trailer-youtube-id="o4gHCmTQDVI" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2006/posters/prestige.jpg" width="220" height="342">
+    <h2>The Prestige</h2>
+    <h4>2006</h4>
+    <!--<h4>drama</h4>-->
+	<h5 class = "movieStoryline">Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= action
+    data-trailer-youtube-id="C8oYugFe0-Q" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2008/posters/body_of_lies.jpg" width="220" height="342">
+    <h2>Body Of Lies</h2>
+    <h4>2008</h4>
+    <!--<h4>action</h4>-->
+	<h5 class = "movieStoryline">A CIA agent on the ground in Jordan hunts down a powerful terrorist leader while being...</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= biography
+    data-trailer-youtube-id="gvqj_Tk_kuM" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2009/posters/blind_side.jpg" width="220" height="342">
+    <h2>The Blind Side</h2>
+    <h4>2009</h4>
+    <!--<h4>biography</h4>-->
+	<h5 class = "movieStoryline">The story of Michael Oher, a homeless and  traumatized boy who became an All American football player and first round NFL draft pick with the help of a caring woman and her family.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="vhFVZsk3XEs" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2009/posters/hangover.jpg" width="220" height="342">
+    <h2>The Hangover</h2>
+    <h4>2009</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">Three buddies wake up from a bachelor party in LasVegas, with no memory of the .. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= action
+    data-trailer-youtube-id="tOGRLdlWHT4" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2010/posters/bounty_hunter.jpg" width="220" height="342">
+    <h2>The Bounty Hunter</h2>
+    <h4>2010</h4>
+    <!--<h4>action</h4>-->
+	<h5 class = "movieStoryline">A bounty hunter learns that his next target is his ex-wife, a reporter working on a murder cover-up. Soon after their reunion, the always-at-odds duo find ...</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="JCBAP2wId5M" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2011/posters/big_year.jpg" width="220" height="342">
+    <h2>The Big Year</h2>
+    <h4>2011</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">A big year is an informal competition among birders tosee who can identify by sight or sound the largest number of species of birds within a singlecalendar year ..</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= biography
+    data-trailer-youtube-id="AiAHlZVgXjk" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2011/posters/moneyball_ver2.jpg" width="220" height="342">
+    <h2>Moneyball</h2>
+    <h4>2011</h4>
+    <!--<h4>biography</h4>-->
+	<h5 class = "movieStoryline">Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget by employing computer-generated...</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= sci-fi
+    data-trailer-youtube-id="hWnAqFyaQ5s" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2012/posters/cloud_atlas_ver2.jpg" width="220" height="342">
+    <h2>Cloud Atlas</h2>
+    <h4>2012</h4>
+    <!--<h4>sci-fi</h4>-->
+	<h5 class = "movieStoryline">An exploration of how the actions of individual lives impact one another in the past, present and future, as one soul is shaped from a killer into a hero</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= biography
+    data-trailer-youtube-id="97XrASFPhF0 " data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/intl/norway/2012/posters/kon_tiki.jpg" width="220" height="342">
+    <h2>Kon-Tiki</h2>
+    <h4>2012</h4>
+    <!--<h4>biography</h4>-->
+	<h5 class = "movieStoryline">Legendary explorer Thor Heyerdal's epic 4,300-mile crossing of the Pacific on a </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= adventure
+    data-trailer-youtube-id="JjFsNSoDZK8" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2013/posters/lone_ranger_ver10.jpg" width="220" height="342">
+    <h2>The Lone Ranger</h2>
+    <h4>2012</h4>
+    <!--<h4>adventure</h4>-->
+	<h5 class = "movieStoryline">Native American warrior Tonto recounts the untoldtales that transformed John Reid, a man of the law, into a legend of justice.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= adventure
+    data-trailer-youtube-id="eOrNdBpGMv8" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2012/posters/avengers_ver19.jpg" width="220" height="342">
+    <h2>Avengers</h2>
+    <h4>2012</h4>
+    <!--<h4>adventure</h4>-->
+	<h5 class = "movieStoryline">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= fantasy
+    data-trailer-youtube-id="JcrbBLjuecE" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/hobbit_the_battle_of_the_five_armies.jpg" width="220" height="342">
+    <h2>The Hobbit</h2>
+    <h4>2012</h4>
+    <!--<h4>fantasy</h4>-->
+	<h5 class = "movieStoryline">A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold ... </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= sci-fi
+    data-trailer-youtube-id="OiTiKOy59o4" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2013/posters/gravity.jpg" width="220" height="342">
+    <h2>Gravity</h2>
+    <h4>2013</h4>
+    <!--<h4>sci-fi</h4>-->
+	<h5 class = "movieStoryline">Two astronauts work together to survive after an accident which leaves them alone </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= action
+    data-trailer-youtube-id="5guMumPFBag" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2013/posters/pacific_rim_ver3.jpg" width="220" height="342">
+    <h2>Pacific Rim</h2>
+    <h4>2013</h4>
+    <!--<h4>action</h4>-->
+	<h5 class = "movieStoryline">As a war between humankind and monstrous seacreatures wages on, a former pilot and a traineeare paired up to drive a seemingly obsoletespecial ... </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= action
+    data-trailer-youtube-id="X07xNrVd7DU" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2013/posters/ripd_ver2.jpg" width="220" height="342">
+    <h2>R.I.P.D.</h2>
+    <h4>2013</h4>
+    <!--<h4>action</h4>-->
+	<h5 class = "movieStoryline">A recently slain cop joins a team of undead police officers working for the Rest in Peace Department and tries to find the man who murdered him. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= drama
+    data-trailer-youtube-id="rARN6agiW7o" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2013/posters/great_gatsby_ver16.jpg" width="220" height="342">
+    <h2>The Great Gatsby</h2>
+    <h4>2013</h4>
+    <!--<h4>drama</h4>-->
+	<h5 class = "movieStoryline">A writer and wall street trader, Nick, finds himself drawn to the past. While the movie hasinspired many Gatsby themed parties, the originalnovel was actually deeply critical of the self-indulgent lifestyle of rich ... </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="cdnoqCViqUo" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2013/posters/internship_ver8.jpg" width="220" height="342">
+    <h2>The Internship</h2>
+    <h4>2013</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">Two salesmen whose careers have been torpedoed by the digital age find their way into a coveted internship at Google, where they must compete with .. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= biography
+    data-trailer-youtube-id="iszwuX1AK6A" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2013/posters/wolf_of_wall_street_ver3.jpg" width="220" height="342">
+    <h2>The Wolf Of Wall Street</h2>
+    <h4>2013</h4>
+    <!--<h4>biography</h4>-->
+	<h5 class = "movieStoryline">Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="0Vsy5KzsieQ" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2013/posters/were_the_millers.jpg" width="220" height="342">
+    <h2>We're The Millers</h2>
+    <h4>2013</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">A divorced reporter, looking forward to the singlelife, finds his parents' marital problems derail hisplans.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= adventure
+    data-trailer-youtube-id="0vxOhd4qlnA" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/interstellar.jpg" width="220" height="342">
+    <h2>Interstellar</h2>
+    <h4>2014</h4>
+    <!--<h4>adventure</h4>-->
+	<h5 class = "movieStoryline">A team of explorers travel through a wormholein space in an attempt to ensure humanity's survival. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="xQGpDi5mM-4" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2015/posters/cobbler_ver3.jpg" width="220" height="342">
+    <h2>The Cobbler</h2>
+    <h4>2014</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline"> A cobbler, bored of his every-day life, stumbles upon a magical heirloom that allows him to become other people and see the world in a different way.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= adventure
+    data-trailer-youtube-id="B16Bo47KS2g" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/guardians_of_the_galaxy_ver3_xlg.jpg" width="220" height="342">
+    <h2>Guardians Of The Galaxy</h2>
+    <h4>2014</h4>
+    <!--<h4>adventure</h4>-->
+	<h5 class = "movieStoryline">A group of intergalactic criminals areforced to work together to stop a fanatical warrior from taking control of the universe.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= sci-fi
+    data-trailer-youtube-id="MVt32qoyhi0" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/intl/france/2014/posters/lucy.jpg" width="220" height="342">
+    <h2>Lucy</h2>
+    <h4>2014</h4>
+    <!--<h4>sci-fi</h4>-->
+	<h5 class = "movieStoryline"> A woman, accidentally caught in a dark deal, turns thetables on her captors and transforms into a merciless warrior evolved beyond human logic </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="v9S_dYuq0vE" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/twenty_two_jump_street.jpg" width="220" height="342">
+    <h2>22 Jump Street</h2>
+    <h4>2014</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">After making their way through high school (twice), big changes are in store for officersSchmidt and Jenko when they go deep undercover ata local .. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= sci-fi
+    data-trailer-youtube-id="vw61gCe2oqI" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/edge_of_tomorrow_ver4.jpg" width="220" height="342">
+    <h2>Edge Of Tomorrow</h2>
+    <h4>2014</h4>
+    <!--<h4>sci-fi</h4>-->
+	<h5 class = "movieStoryline"> A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="2sOa-2EhbTU" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/million_ways_to_die_in_the_west_ver11.jpg" width="220" height="342">
+    <h2>A Million Ways To Die In The West</h2>
+    <h4>2014</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">As a cowardly farmer begins to fall for themysterious new woman in town, he must put his new-found courage to the test when her husband, a notorious gun-slinger, announces his arrival. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= adventure
+    data-trailer-youtube-id="w-XO4XiRop0" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/maleficent_ver8.jpg" width="220" height="342">
+    <h2>Maleficent</h2>
+    <h4>2014</h4>
+    <!--<h4>adventure</h4>-->
+	<h5 class = "movieStoryline">A vengeful fairy is driven to curse an infant princess, only to discover that the child may be the one person who can restore peace to their troubled land. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= fantasy
+    data-trailer-youtube-id="l9g2w6XPoYs" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2017/posters/beauty_and_the_beast_ver4.jpg" width="220" height="342">
+    <h2>Beauty And The Beast</h2>
+    <h4>2014</h4>
+    <!--<h4>fantasy</h4>-->
+	<h5 class = "movieStoryline">An unexpected romance blooms after the theyoungest daughter of a merchant who has fallen on hard times offers herself to themysterious beast to which her father has become indebted.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="1Fg5iWmQjwk" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/grand_budapest_hotel_ver17.jpg" width="220" height="342">
+    <h2>The Grand Budapest Hotel</h2>
+    <h4>2014</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= drama
+    data-trailer-youtube-id="CreneTs7sGs" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/monuments_men.jpg" width="220" height="342">
+    <h2>The Monuments Men</h2>
+    <h4>2014</h4>
+    <!--<h4>drama</h4>-->
+	<h5 class = "movieStoryline">An unlikely World War II platoon is tasked to rescue art masterpieces from Nazi thieves and return them to their owners. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= crime
+    data-trailer-youtube-id="ZBvK6ni97W8" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/judge.jpg" width="220" height="342">
+    <h2>The Judge</h2>
+    <h4>2014</h4>
+    <!--<h4>crime</h4>-->
+	<h5 class = "movieStoryline">Big-city lawyer Hank Palmer returns to his childhoodhome where his father, the town's judge, is suspectedof murder. Hank sets out to discover the truth ... </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= war
+    data-trailer-youtube-id="-OGvZoIrXpg" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/fury_ver9.jpg" width="220" height="342">
+    <h2>Fury</h2>
+    <h4>2014</h4>
+    <!--<h4>war</h4>-->
+	<h5 class = "movieStoryline">A grizzled tank commander makes tough decisions as he and his crew fight their way across Germany in April,1945 </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= sport
+    data-trailer-youtube-id="xpvInmz-EJM" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/draft_day.jpg" width="220" height="342">
+    <h2>Draft Day</h2>
+    <h4>2014</h4>
+    <!--<h4>sport</h4>-->
+	<h5 class = "movieStoryline">At the NFL Draft, general manager Sonny Weaver has the opportunity to rebuild his .... The actual 2014 NFL draft had a lot of similarities to the plot of themovie. The actual draft had a Heisman trophy winning quarterback falling in the ... </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= action
+    data-trailer-youtube-id="yswZKfnmf7c" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2014/posters/three_days_to_kill_ver5_xlg.jpg" width="220" height="342">
+    <h2>3 Days To Kill</h2>
+    <h4>2014</h4>
+    <!--<h4>action</h4>-->
+	<h5 class = "movieStoryline">A dying CIA agent trying to reconnect with his estranged daughter is offered an experimental drug that could save his life in exchange for one last assignment.</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="MxCRgtdAuBo" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2015/posters/focus_ver4.jpg" width="220" height="342">
+    <h2>Focus</h2>
+    <h4>2015</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">In the midst of veteran con man Nicky's latest scheme,a woman from his past - now an ..... Overall, Focus isa terrible con movie which cons the audience with it'sgood trailer and impressive cast, which can't save thisconvoluted mess</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= comedy
+    data-trailer-youtube-id="4cNmMLq9ZrQ " data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2015/posters/vacation_ver2.jpg " width="220" height="342">
+    <h2>Vacation</h2>
+    <h4>2015</h4>
+    <!--<h4>comedy</h4>-->
+	<h5 class = "movieStoryline">Rusty Griswold takes his own family on a road trip to 'Walley World' in order to spice things up with his wife and reconnect with his sons. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= animation
+    data-trailer-youtube-id="T3nqmGgnJe8" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2015/posters/hotel_transylvania_two_ver5.jpg" width="220" height="342">
+    <h2>Hotel Transylvania 2</h2>
+    <h4>2015</h4>
+    <!--<h4>animation</h4>-->
+	<h5 class = "movieStoryline">Dracula and his friends try to bring out the monster in his half human, half vampiregrandson in order to keep Mavis from leaving the hotel. </h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" id= action
+    data-trailer-youtube-id="-x08iNZ8Mfc" data-toggle="modal"
+    data-target="#trailer">
+    <img class="poster" src="http://www.impawards.com/2015/posters/man_from_uncle.jpg " width="220" height="342">
+    <h2>The Man from U.N.C.L.E.</h2>
+    <h4>2015</h4>
+    <!--<h4>action</h4>-->
+	<h5 class = "movieStoryline">In the early 1960s, CIA agent Napoleon Solo and KGB... </h5>
+</div>
+
+    </div>
+	
+	
+    <!-- Go up button to scroll up the page-->
+	<a href="#top" class="goUpButton">	
+		
+	</a>
+  </body>
+  
+</html>

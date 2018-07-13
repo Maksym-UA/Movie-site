@@ -21,6 +21,12 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
+	<meta name="description" content="Maksym Savin favourite movies list">
+	<meta name="Maksym Savin" content="//msmovielist.biz.ht/">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="mobile-web-app-capable" content="yes">
+	
     <title>Maksym Savin Movie  List</title>
 
     <!-- Bootstrap 3 -->
@@ -66,7 +72,7 @@ main_page_content = '''
 					<a class="navbar-brand" id="home_button"  href="index.html">
 						<img  src="home icon.png"/>
 					</a>
-					<a class="navbar-brand" href="#">Maksym Savin Movie List via Fresh Tomatoes</a>
+					<a class="navbar-brand" href="#">Maksym Savin Movie List</a>
 				</div>
 			</div>
         </div>
@@ -106,6 +112,14 @@ main_page_content = '''
 	<a href="#top" class="goUpButton">	
 		
 	</a>
+	
+	<div  style="position:relative; margin-top: 50px;">
+			<div style="color:#ddd;background-color:#282E34;text-align:center;padding:10px 160px;text-align: justify;">
+				<p>Maksym Savin. All rights reserved 	&#9400;
+					<a id="contact" href="https://www.linkedin.com/in/maksymsavin/" style="color:#ddd;" target=blank>Feel free to contact me.</a>
+				</p>
+			</div>
+	</div>
   </body>
   
 </html>
@@ -113,7 +127,7 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="col-md-6 col-lg-4 movie-tile text-center" id= {movie_genre}
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 movie-tile text-center" id= {movie_genre}
     data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal"
     data-target="#trailer">
     <img class="poster" src="{poster_image_url}" width="220" height="342">
@@ -151,7 +165,7 @@ def create_movie_tiles_content(movies):
 
 def open_movies_page(movies):
     # Create or overwrite the output file
-    output_file = open('fresh_tomatoes.html', 'w')
+    output_file = open('movielist.html', 'w')
 
     # Replace the movie tiles placeholder generated content
     rendered_content = main_page_content.format(

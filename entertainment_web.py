@@ -12,8 +12,7 @@ forrestGump = media.Movie("Forrest Gump",
                           "accidentally been present at many historic " +
                           "moments, but his true love, Jenny Curran, " +
                           "eludes him.",
-                          "http://www.impawards.com/1994/posters/forrest_" +
-                          "gump.jpg",
+                          "img/forrest_gump.jpg",
                           "https://youtu.be/uPIEn0M8su0")
 
 shawshank = media.Movie("The Shawshank Redemption",
@@ -22,8 +21,7 @@ shawshank = media.Movie("The Shawshank Redemption",
                         "Two imprisoned men bond over a number of years," +
                         "finding solace and eventual redemption through acts" +
                         "of common decency.",
-                        "http://www.impawards.com/1994/posters/shawshank_" +
-                        "redemption_ver2.jpg",
+                        "img/shawshank_redemption.jpg",
                         "https://youtu.be/6hB3S9bIaco")
 
 greenMile = media.Movie("The Green Mile",
@@ -32,8 +30,7 @@ greenMile = media.Movie("The Green Mile",
                         "The lives of guards on Death Row are affected by " +
                         "one of their charges: a black man accused of child " +
                         "murder and rape, yet who has a mysterious gift.",
-                        "http://www.impawards.com/1999/posters/green_mile_" +
-                        "ver3_xlg.jpg",
+                        "img/green_mile.jpg",
                         "https://youtu.be/Ki4haFrqSrw")
 
 nineYards = media.Movie("The Whole Nine Yards",
@@ -41,8 +38,7 @@ nineYards = media.Movie("The Whole Nine Yards",
                         "comedy",
                         "A struggling dentist's life is turned upside down" +
                         "when a famous gangster moves in",
-                        "http://www.impawards.com/2000/posters/whole_nine_" +
-                        "yards.jpg",
+                        "img/whole_nine_yards.jpg",
                         "https://youtu.be/G3cEKSODO1M")
 
 thePerfectStorm = media.Movie("The Perfect Storm",
@@ -51,8 +47,7 @@ thePerfectStorm = media.Movie("The Perfect Storm",
                               "An unusually intense storm pattern catches" +
                               "some commercial fishermen unaware and puts" +
                               "them in mortal danger.",
-                              "http://www.impawards.com/2000/posters/perfect" +
-                              "_storm.jpg",
+                              "img/perfect_storm.jpg",
                               "https://youtu.be/RZvljNvnd18")
 
 prestige = media.Movie("The Prestige",
@@ -61,7 +56,7 @@ prestige = media.Movie("The Prestige",
                        "Two stage magicians engage in competitive one-" +
                        "upmanship in an attempt to create the ultimate " +
                        "stage illusion.",
-                       "http://www.impawards.com/2006/posters/prestige.jpg",
+                       "img/prestige.jpg",
                        "https://youtu.be/o4gHCmTQDVI")
 
 bodyOfLies = media.Movie("Body Of Lies",
@@ -69,8 +64,7 @@ bodyOfLies = media.Movie("Body Of Lies",
                          "action",
                          "A CIA agent on the ground in Jordan hunts down a "
                          "powerful terrorist leader while being...",
-                         "http://www.impawards.com/2008/posters/body_of_lies" +
-                         ".jpg",
+                         "img/body_of_lies.jpg",
                          "https://youtu.be/C8oYugFe0-Q")
 
 bountyHunter = media.Movie("The Bounty Hunter",
@@ -80,8 +74,7 @@ bountyHunter = media.Movie("The Bounty Hunter",
                            "his ex-wife, a reporter working on a murder " +
                            "cover-up. Soon after their reunion, the always" +
                            "-at-odds duo find ...",
-                           "http://www.impawards.com/2010/posters/bounty_" +
-                           "hunter.jpg",
+                           "img/bounty_hunter.jpg",
                            "https://youtu.be/tOGRLdlWHT4")
 
 theBigYear = media.Movie("The Big Year",
@@ -91,7 +84,7 @@ theBigYear = media.Movie("The Big Year",
                          "rs tosee who can identify by sight or sound the " +
                          "largest number of species of birds within a single" +
                          "calendar year ..",
-                         "http://www.impawards.com/2011/posters/big_year.jpg",
+                         "img/big_year.jpg",
                          "https://www.youtube.com/watch?v=JCBAP2wId5M")
 
 theBlindSide = media.Movie("The Blind Side",
@@ -101,8 +94,7 @@ theBlindSide = media.Movie("The Blind Side",
                            " traumatized boy who became an All American " +
                            "football player and first round NFL draft pick" +
                            " with the help of a caring woman and her family.",
-                           "http://www.impawards.com/2009/posters/blind_side" +
-                           ".jpg",
+                           "img/blind_side.jpg",
                            "https://www.youtube.com/watch?v=gvqj_Tk_kuM")
 
 moneyball = media.Movie("Moneyball",
@@ -111,8 +103,7 @@ moneyball = media.Movie("Moneyball",
                         "Oakland A's general manager Billy Beane's successful "
                         "attempt to assemble a baseball team on a lean budget "
                         "by employing computer-generated...",
-                        "http://www.impawards.com/2011/posters/moneyball_" +
-                        "ver2.jpg",
+                        "img/moneyball.jpg",
                         "https://www.youtube.com/watch?v=AiAHlZVgXjk")
 
 cloudAtlas = media.Movie("Cloud Atlas",
@@ -122,8 +113,7 @@ cloudAtlas = media.Movie("Cloud Atlas",
                          "lives impact one another in the past, present and " +
                          "future, as one soul is shaped from a killer into " +
                          "a hero",
-                         "http://www.impawards.com/2012/posters/cloud_atlas_" +
-                         "ver2.jpg",
+                         "img/cloud_atlas.jpg",
                          "https://www.youtube.com/watch?v=hWnAqFyaQ5s")
 
 konTiki = media.Movie("Kon-Tiki",
@@ -131,8 +121,7 @@ konTiki = media.Movie("Kon-Tiki",
                       "biography",
                       "Legendary explorer Thor Heyerdal's epic 4,300-mile "
                       "crossing of the Pacific on a ",
-                      "http://www.impawards.com/intl/norway/2012/posters/kon" +
-                      "_tiki.jpg",
+                      "img/kon_tiki.jpg",
                       "https://www.youtube.com/watch?v=97XrASFPhF0 ")
 
 gravity = media.Movie("Gravity",
@@ -140,7 +129,7 @@ gravity = media.Movie("Gravity",
                       "sci-fi",
                       "Two astronauts work together to survive after an " +
                       "accident which leaves them alone ",
-                      "http://www.impawards.com/2013/posters/gravity.jpg",
+                      "img/gravity.jpg",
                       "https://www.youtube.com/watch?v=OiTiKOy59o4")
 
 pacificRim = media.Movie("Pacific Rim",
@@ -150,8 +139,7 @@ pacificRim = media.Movie("Pacific Rim",
                          "creatures wages on, a former pilot and a trainee" +
                          "are paired up to drive a seemingly obsolete" +
                          "special ... ",
-                         "http://www.impawards.com/2013/posters/pacific_" +
-                         "rim_ver3.jpg",
+                         "img/pacific_rim.jpg",
                          "https://www.youtube.com/watch?v=5guMumPFBag")
 
 loneRanger = media.Movie("The Lone Ranger",
@@ -160,8 +148,7 @@ loneRanger = media.Movie("The Lone Ranger",
                          "Native American warrior Tonto recounts the untold" +
                          "tales that transformed John Reid, a man of the " +
                          "law, into a legend of justice.",
-                         "http://www.impawards.com/2013/posters/lone_ranger" +
-                         "_ver10.jpg",
+                         "img/lone_ranger.jpg",
                          "https://www.youtube.com/watch?v=JjFsNSoDZK8")
 
 hangover = media.Movie("The Hangover",
@@ -169,7 +156,7 @@ hangover = media.Movie("The Hangover",
                        "comedy",
                        "Three buddies wake up from a bachelor party in Las" +
                        "Vegas, with no memory of the .. ",
-                       "http://www.impawards.com/2009/posters/hangover.jpg",
+                       "img/hangover.jpg",
                        "https://www.youtube.com/watch?v=vhFVZsk3XEs")
 
 rIPD = media.Movie("R.I.P.D.",
@@ -178,7 +165,7 @@ rIPD = media.Movie("R.I.P.D.",
                    "A recently slain cop joins a team of undead police " +
                    "officers working for the Rest in Peace Department and " +
                    "tries to find the man who murdered him. ",
-                   "http://www.impawards.com/2013/posters/ripd_ver2.jpg",
+                   "img/ripd.jpg",
                    "https://www.youtube.com/watch?v=X07xNrVd7DU")
 
 greatGatsby = media.Movie("The Great Gatsby",
@@ -189,8 +176,7 @@ greatGatsby = media.Movie("The Great Gatsby",
                           "inspired many Gatsby themed parties, the original"
                           "novel was actually deeply critical of the self-" +
                           "indulgent lifestyle of rich ... ",
-                          "http://www.impawards.com/2013/posters/great_" +
-                          "gatsby_ver16.jpg",
+                          "img/great_gatsby.jpg",
                           "https://www.youtube.com/watch?v=rARN6agiW7o")
 
 internship = media.Movie("The Internship",
@@ -200,8 +186,7 @@ internship = media.Movie("The Internship",
                          "the digital age find their way into a coveted " +
                          "internship at Google, where they must compete "
                          "with .. ",
-                         "http://www.impawards.com/2013/posters/internship_" +
-                         "ver8.jpg",
+                         "img/internship.jpg",
                          "https://www.youtube.com/watch?v=cdnoqCViqUo")
 
 interstellar = media.Movie("Interstellar",
@@ -210,8 +195,7 @@ interstellar = media.Movie("Interstellar",
                            "A team of explorers travel through a wormhole" +
                            "in space in an attempt to ensure humanity's " +
                            "survival. ",
-                           "http://www.impawards.com/2014/posters/interstel" +
-                           "lar.jpg",
+                           "img/interstellar.jpg",
                            "https://www.youtube.com/watch?v=0vxOhd4qlnA")
 
 cobbler = media.Movie("The Cobbler",
@@ -220,7 +204,7 @@ cobbler = media.Movie("The Cobbler",
                       " A cobbler, bored of his every-day life, stumbles " +
                       "upon a magical heirloom that allows him to become " +
                       "other people and see the world in a different way.",
-                      "http://www.impawards.com/2015/posters/cobbler_ver3.jpg",
+                      "img/cobbler.jpg",
                       "https://www.youtube.com/watch?v=xQGpDi5mM-4")
 
 focus = media.Movie("Focus",
@@ -231,7 +215,7 @@ focus = media.Movie("Focus",
                     "a terrible con movie which cons the audience with it's" +
                     "good trailer and impressive cast, which can't save this" +
                     "convoluted mess",
-                    "http://www.impawards.com/2015/posters/focus_ver4.jpg",
+                    "img/focus.jpg",
                     "https://www.youtube.com/watch?v=MxCRgtdAuBo")
 
 guardiansOfTheGalaxy = media.Movie("Guardians Of The Galaxy",
@@ -241,8 +225,7 @@ guardiansOfTheGalaxy = media.Movie("Guardians Of The Galaxy",
                                    "forced to work together to stop a fanati" +
                                    "cal warrior from taking control of the " +
                                    "universe.",
-                                   "http://www.impawards.com/2014/posters/" +
-                                   "guardians_of_the_galaxy_ver3_xlg.jpg",
+                                   "img/guardians_of_the_galaxy.jpg",
                                    "https://www.youtube.com/watch?v=" +
                                    "B16Bo47KS2g")
 
@@ -252,8 +235,7 @@ lucy = media.Movie("Lucy",
                    " A woman, accidentally caught in a dark deal, turns the" +
                    "tables on her captors and transforms into a merciless " +
                    "warrior evolved beyond human logic ",
-                   "http://www.impawards.com/intl/france/2014/posters/lucy" +
-                   ".jpg",
+                   "img/lucy.jpg",
                    "https://www.youtube.com/watch?v=MVt32qoyhi0")
 
 jumpStreet = media.Movie("22 Jump Street",
@@ -263,8 +245,7 @@ jumpStreet = media.Movie("22 Jump Street",
                          "(twice), big changes are in store for officers" +
                          "Schmidt and Jenko when they go deep undercover at" +
                          "a local .. ",
-                         "http://www.impawards.com/2014/posters/twenty_two_" +
-                         "jump_street.jpg",
+                         "img/twenty_two_jump_street.jpg",
                          "https://www.youtube.com/watch?v=v9S_dYuq0vE")
 
 edgeOfTomorrow = media.Movie("Edge Of Tomorrow",
@@ -273,8 +254,7 @@ edgeOfTomorrow = media.Movie("Edge Of Tomorrow",
                              " A soldier fighting aliens gets to relive the " +
                              "same day over and over again, the day " +
                              "restarting every time he dies. ",
-                             "http://www.impawards.com/2014/posters/edge_" +
-                             "of_tomorrow_ver4.jpg",
+                             "img/edge_of_tomorrow.jpg",
                              "https://www.youtube.com/watch?v=vw61gCe2oqI")
 
 millionWaysToDie = media.Movie("A Million Ways To Die In The West",
@@ -285,8 +265,7 @@ millionWaysToDie = media.Movie("A Million Ways To Die In The West",
                                "his new-found courage to the test when her " +
                                "husband, a notorious gun-slinger, announces " +
                                "his arrival. ",
-                               "http://www.impawards.com/2014/posters/mill" +
-                               "ion_ways_to_die_in_the_west_ver11.jpg",
+                               "img/million_ways_to_die_in_the_west.jpg",
                                "https://www.youtube.com/watch?v=2sOa-2EhbTU")
 
 maleficent = media.Movie("Maleficent",
@@ -296,8 +275,7 @@ maleficent = media.Movie("Maleficent",
                          "princess, only to discover that the child may be " +
                          "the one person who can restore peace to their " +
                          "troubled land. ",
-                         "http://www.impawards.com/2014/posters/maleficent"
-                         "_ver8.jpg",
+                         "img/maleficent.jpg",
                          "https://www.youtube.com/watch?v=w-XO4XiRop0")
 
 avengers = media.Movie("Avengers",
@@ -306,8 +284,7 @@ avengers = media.Movie("Avengers",
                        "Earth's mightiest heroes must come together and " +
                        "learn to fight as a team if they are to stop the " +
                        "mischievous Loki and his alien army from enslaving",
-                       "http://www.impawards.com/2012/posters/avengers_" +
-                       "ver19.jpg",
+                       "img/avengers.jpg",
                        "https://www.youtube.com/watch?v=eOrNdBpGMv8")
 
 beautyAndTheBeast = media.Movie("Beauty And The Beast",
@@ -318,8 +295,7 @@ beautyAndTheBeast = media.Movie("Beauty And The Beast",
                                 "fallen on hard times offers herself to the" +
                                 "mysterious beast to which her father has " +
                                 "become indebted.",
-                                "http://www.impawards.com/2017/posters/" +
-                                "beauty_and_the_beast_ver4.jpg",
+                                "img/beauty_and_the_beast.jpg",
                                 "https://www.youtube.com/watch?v=l9g2w6XPoYs")
 
 grandBudapestHot = media.Movie("The Grand Budapest Hotel",
@@ -329,8 +305,7 @@ grandBudapestHot = media.Movie("The Grand Budapest Hotel",
                                "concierge at a famous hotel from the fictio" +
                                "nal Republic of Zubrowka between the first " +
                                "and second World ",
-                               "http://www.impawards.com/2014/posters/grand" +
-                               "_budapest_hotel_ver17.jpg",
+                               "img/grand_budapest_hotel.jpg",
                                "https://www.youtube.com/watch?v=1Fg5iWmQjwk")
 
 monumentsMen = media.Movie("The Monuments Men",
@@ -339,8 +314,7 @@ monumentsMen = media.Movie("The Monuments Men",
                            "An unlikely World War II platoon is tasked to " +
                            "rescue art masterpieces from Nazi thieves and " +
                            "return them to their owners. ",
-                           "http://www.impawards.com/2014/posters/monuments" +
-                           "_men.jpg",
+                           "img/monuments_men.jpg",
                            "https://www.youtube.com/watch?v=CreneTs7sGs")
 
 wolfWallStreet = media.Movie("The Wolf Of Wall Street",
@@ -350,8 +324,7 @@ wolfWallStreet = media.Movie("The Wolf Of Wall Street",
                              "from his rise to a wealthy stock-broker " +
                              "living the high life to his fall involving " +
                              "crime, corruption and the federal ",
-                             "http://www.impawards.com/2013/posters/wolf_" +
-                             "of_wall_street_ver3.jpg",
+                             "img/wolf_of_wall_street.jpg",
                              "https://www.youtube.com/watch?v=iszwuX1AK6A")
 
 hobbit = media.Movie("The Hobbit",
@@ -360,8 +333,7 @@ hobbit = media.Movie("The Hobbit",
                      "A reluctant hobbit, Bilbo Baggins, sets out to the " +
                      "Lonely Mountain with a spirited group of dwarves to " +
                      "reclaim their mountain home - and the gold ... ",
-                     "http://www.impawards.com/2014/posters/hobbit_the_" +
-                     "battle_of_the_five_armies.jpg",
+                     "img/hobbit_the_battle_of_the_five_armies.jpg",
                      "https://www.youtube.com/watch?v=JcrbBLjuecE")
 
 judge = media.Movie("The Judge",
@@ -370,7 +342,7 @@ judge = media.Movie("The Judge",
                     "Big-city lawyer Hank Palmer returns to his childhood" +
                     "home where his father, the town's judge, is suspected" +
                     "of murder. Hank sets out to discover the truth ... ",
-                    "http://www.impawards.com/2014/posters/judge.jpg",
+                    "img/judge.jpg",
                     "https://www.youtube.com/watch?v=ZBvK6ni97W8")
 
 fury = media.Movie("Fury",
@@ -379,7 +351,7 @@ fury = media.Movie("Fury",
                    "A grizzled tank commander makes tough decisions as he " +
                    "and his crew fight their way across Germany in April," +
                    "1945 ",
-                   "http://www.impawards.com/2014/posters/fury_ver9.jpg",
+                   "img/fury.jpg",
                    "https://www.youtube.com/watch?v=-OGvZoIrXpg")
 
 millers = media.Movie("We're The Millers",
@@ -388,8 +360,7 @@ millers = media.Movie("We're The Millers",
                       "A divorced reporter, looking forward to the single" +
                       "life, finds his parents' marital problems derail his" +
                       "plans.",
-                      "http://www.impawards.com/2013/posters/were_the_" +
-                      "millers.jpg",
+                      "img/were_the_millers.jpg",
                       "https://www.youtube.com/watch?v=0Vsy5KzsieQ")
 
 draft = media.Movie("Draft Day",
@@ -400,7 +371,7 @@ draft = media.Movie("Draft Day",
                     "NFL draft had a lot of similarities to the plot of the" +
                     "movie. The actual draft had a Heisman trophy winning " +
                     "quarterback falling in the ... ",
-                    "http://www.impawards.com/2014/posters/draft_day.jpg",
+                    "img/draft_day.jpg",
                     "https://www.youtube.com/watch?v=xpvInmz-EJM")
 
 threeDaysToKill = media.Movie("3 Days To Kill",
@@ -410,8 +381,7 @@ threeDaysToKill = media.Movie("3 Days To Kill",
                               "his estranged daughter is offered an experi" +
                               "mental drug that could save his life in exch" +
                               "ange for one last assignment.",
-                              "http://www.impawards.com/2014/posters/three_" +
-                              "days_to_kill_ver5_xlg.jpg",
+                              "img/three_days_to_kill.jpg",
                               "https://www.youtube.com/watch?v=yswZKfnmf7c")
 
 vacation = media.Movie("Vacation",
@@ -420,8 +390,7 @@ vacation = media.Movie("Vacation",
                        "Rusty Griswold takes his own family on a road trip " +
                        "to 'Walley World' in order to spice things up with " +
                        "his wife and reconnect with his sons. ",
-                       "http://www.impawards.com/2015/posters/vacation_" +
-                       "ver2.jpg ",
+                       "img/vacation.jpg ",
                        "https://www.youtube.com/watch?v=4cNmMLq9ZrQ ")
 
 hotelTransylvania = media.Movie("Hotel Transylvania 2",
@@ -439,8 +408,7 @@ uNCLE = media.Movie("The Man from U.N.C.L.E.",
                     "2015",
                     "action",
                     "In the early 1960s, CIA agent Napoleon Solo and KGB... ",
-                    "http://www.impawards.com/2015/posters/man_from_uncle" +
-                    ".jpg ",
+                    "img/man_from_uncle.jpg ",
                     "https://www.youtube.com/watch?v=-x08iNZ8Mfc")
 
 
@@ -450,17 +418,15 @@ weWereSoldiers = media.Movie("We Were Soldiers",
                              "The story of the first major battle of the " +
                              "American phase of the Vietnam War and the " +
                              "soldiers on both sides that fought it.",
-                             "http://www.impawards.com/2002/posters/we_were" +
-                             "_soldiers.jpg",
+                             "img/we_were_soldiers.jpg",
                              "https://www.youtube.com/watch?v=If-UCjzRFfk")
 
 lethalWeapon = media.Movie("Lethal Weapon",
                            "1987",
                            "action",
                            "A veteran policeman, Murtaugh, is partnered with" +
-                           "a younger, suicidal officer, Riggs",
-                           "https://upload.wikimedia.org/wikipedia/en/d/d9/" +
-                           "Lethal_weapon1.jpg",
+                           " a younger, suicidal officer, Riggs",
+                           "img/lethal_weapon.jpg",
                            "https://www.youtube.com/watch?v=bKeW-MGu-qQ")
 
 patriot = media.Movie("The Patriot",
@@ -469,29 +435,46 @@ patriot = media.Movie("The Patriot",
                       "Peaceful farmer Benjamin Martin is driven to lead the" +
                       " Colonial Militia during the American Revolution when" +
                       "a sadistic British officer murders his son.",
-                      "https://images-na.ssl-images-amazon.com/images/I/" +
-                      "51TiXRZCo7L.jpg",
+                      "img/patriot.jpg",
                       "https://www.youtube.com/watch?v=_comGBmnYew")
+
+farAndAway = media.Movie("Far And Away",
+                         "1992",
+                         "adventure",
+                         "A young Irish couple flee to the States, " +
+                         "but subsequently struggle to obtain land " +
+                         "and prosper freely.",
+                         "img/Far_and_away_ver1.jpg",
+                         "https://www.youtube.com/watch?v=TnrqzfqSM1o")
+
+big = media.Movie("Big",
+                  "1988",
+                  "comedy",
+                  "After wishing to be made big, a teenage boy wakes the" +
+                  " next morning to find himself mysteriously in the body of" +
+                  " an adult.",
+                  "img/big.jpg",
+                  "https://www.youtube.com/watch?v=lCmyX6CYhI0")
 
 print(greenMile.genre)
 """avatar.show_trailer()"""
 """greenMile.show_poster()"""
 
 movies = [forrestGump, greenMile, nineYards, thePerfectStorm, prestige,
-          bodyOfLies, bountyHunter, theBigYear, theBlindSide,
-          moneyball, cloudAtlas, konTiki, gravity, pacificRim, loneRanger,
-          hangover, rIPD, greatGatsby, internship, interstellar, cobbler,
-          focus, guardiansOfTheGalaxy, lucy, jumpStreet, edgeOfTomorrow,
+          bodyOfLies, bountyHunter, theBigYear, theBlindSide, moneyball,
+          cloudAtlas, konTiki, gravity, pacificRim, loneRanger, hangover, rIPD,
+          greatGatsby, internship, interstellar, cobbler, focus,
+          guardiansOfTheGalaxy, lucy, jumpStreet, edgeOfTomorrow,
           millionWaysToDie, maleficent, avengers, beautyAndTheBeast,
           grandBudapestHot, monumentsMen, wolfWallStreet, hobbit, judge,
           fury, millers, draft, threeDaysToKill, vacation, hotelTransylvania,
-          uNCLE, weWereSoldiers, lethalWeapon, patriot]
+          uNCLE, weWereSoldiers, lethalWeapon, patriot, farAndAway, big]
 
 
 def bubble(m):
         """
 
-        Function to sort all the movies accroding to their production year
+        Function to sort all the movies according to their production year
         and store that in a list.
 
         """
